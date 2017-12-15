@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi app</title>
+</head>
+
+<body>
+    <h1>Inicia sesión</h1>
+    <button id="login">
+        Inicia con Google
+    </button>
+    <button id="guardar">
+        Guardar
+    </button>
+    <div id="root">
+        <footer>
+            link to video tutorial :
+            <a href="https://www.youtube.com/watch?v=e6aoUnLQBAw">here</a>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAiLWR5wb7nVwv9Fgpy90vyZerAoPFqDHQ",
+            authDomain: "jquery-firebase-684a6.firebaseapp.com",
+            databaseURL: "https://jquery-firebase-684a6.firebaseio.com",
+            projectId: "jquery-firebase-684a6",
+            storageBucket: "jquery-firebase-684a6.appspot.com",
+            messagingSenderId: "913277467046"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

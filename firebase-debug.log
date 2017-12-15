@@ -1,0 +1,27 @@
+[debug] [2017-12-15T02:39:39.702Z] ----------------------------------------------------------------------
+[debug] [2017-12-15T02:39:39.704Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jose.zena\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase open
+[debug] [2017-12-15T02:39:39.704Z] CLI Version:   3.16.0
+[debug] [2017-12-15T02:39:39.704Z] Platform:      win32
+[debug] [2017-12-15T02:39:39.704Z] Node Version:  v9.1.0
+[debug] [2017-12-15T02:39:39.705Z] Time:          Thu Dec 14 2017 21:39:39 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-12-15T02:39:39.705Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-15T02:39:39.716Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-12-15T02:39:39.716Z] > authorizing via signed-in user
+[debug] [2017-12-15T02:39:39.718Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-15T02:39:39.718Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/Vovm6gm8YBalHu3_DznzShqXkOL7d8DhaGZVa9Z1wzKh2LmDro4gp3JeMV4Q01Hm',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Dec 14 2017 21:39:39 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-12-15T02:39:40.195Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-15T02:39:40.210Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/jquery-firebase-684a6  
+  
+ Thu Dec 14 2017 21:39:40 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-12-15T02:39:41.151Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-15T02:39:41.153Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/jquery-firebase-684a6/tokens  
+  
+ Thu Dec 14 2017 21:39:41 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-12-15T02:39:42.033Z] <<< HTTP RESPONSE 200
